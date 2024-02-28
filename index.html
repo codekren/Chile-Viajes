@@ -14,23 +14,23 @@
         <nav class="navbar navbar-expand-lg bg-transparent">
             <div class="container">
                 <img class= "icono mx-1"src="assets/img/viajes.svg" alt="icono" >
-                <a class="navbar-brand fw-light" style="color:#fff;" href="#">Viajes Chile</a>
+                <a class="navbar-brand fw-light" style="color:#fff;" href="#principal">Viajes Chile</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active fw-light" style="color:#fff;" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link active fw-light" style="color:#fff;" aria-current="page" href="#principal">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link fw-light" style="color:#fff;" href="#">Quienes Somos</a>
+                    <a class="nav-link fw-light" style="color:#fff;" href="#bloque1">Quienes Somos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link fw-light" style="color:#fff;" href="#">Destacados</a>
+                    <a class="nav-link fw-light" style="color:#fff;" href="#bloque2">Destacados</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link fw-light" style="color:#fff;" href="#">Contacto</a>
+                    <a class="nav-link fw-light" style="color:#fff;" href="#bloque3">Contacto</a>
                   </li>                 
                 </ul>
               </div>
@@ -40,7 +40,7 @@
     </header>
     <main class="bg-dark d-flex flex-column justify-content-center align-items-center">
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="true" >
-            <div class="carousel-inner" >
+            <div class="carousel-inner" id="principal" >
               <div class="carousel-item active col-4">
                 <img src="assets/img/carousel1.jpg" class="d-block w-100 galeria" alt="...">
               </div>
@@ -60,27 +60,27 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-        <section class="container">
+        <section class="container" id="bloque1">
             <div class="row section1">
-                <p class="text-center my-5 border-bottom p-3 " style="color:#fff;"  >¿ QUIENES SOMOS ?</p>
+                <p id="quienes" class="text-center my-5 border-bottom p-3 " style="color:#fff;"  >¿ QUIENES SOMOS ?</p>
             </div>
             <div class="row justify-content-center">
                 <div class="card col-4 mx-1 bg-dark border-0 " style="width: 21rem;">
                     <i class="fa-solid fa-plane bg-info text-center text-light m-2 " style="height: auto;" ></i>
                     <div class="card-body d-none d-sm-block">                        
-                        <p class="card-text text-light ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At exercitationem repellat animi fugiat veritatis minus voluptate praesentium maiores voluptates dolores ad officiis commodi magni officia, consequatur excepturi earum placeat omnis.</p>
+                        <p class="card-text text-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At exercitationem repellat animi fugiat veritatis minus voluptate praesentium maiores voluptates dolores ad officiis commodi magni officia, consequatur excepturi earum placeat omnis.</p>
                     </div>
                 </div>
                 <div class="card col-4 bg-dark border-0" style="width: 21rem;">                    
                     <div class="card-body d-none d-sm-block">                        
-                        <p class="card-text text-light  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ab cumque a at non officia tenetur ipsam facere reiciendis distinctio rem laudantium necessitatibus veritatis ullam nesciunt sed doloremque, est aperiam?</p>
+                        <p class="card-text text-light ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ab cumque a at non officia tenetur ipsam facere reiciendis distinctio rem laudantium necessitatibus veritatis ullam nesciunt sed doloremque, est aperiam?</p>
                     </div>
                     <i class="fa-solid fa-mountain bg-info text-center text-light m-2" style="height: auto;"></i>
                 </div>
                 <div class="card col-4 bg-dark border-0" style="width: 21rem;">
                     <i class="fa-solid fa-route bg-info text-center text-light m-2" style="height: auto;"></i>
                     <div class="card-body d-none d-sm-block">                        
-                        <p class="card-text text-light  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed blanditiis mollitia nihil, eaque incidunt veritatis recusandae. Vitae et nemo itaque laboriosam animi perspiciatis quas, nostrum libero. Eius minus sunt provident?</p>
+                        <p class="card-text text-light ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed blanditiis mollitia nihil, eaque incidunt veritatis recusandae. Vitae et nemo itaque laboriosam animi perspiciatis quas, nostrum libero. Eius minus sunt provident?</p>
                     </div>
                 </div>
 
@@ -88,9 +88,9 @@
 
 
         </section>
-        <section class="container ">
-            <div class="row ">
-                <p class="text-center my-5 border-bottom p-3" style="color:#fff;"> DESTACADOS </p>
+        <section class="container" id="bloque2">
+            <div class="row section2 ">
+                <p class="text-center my-5 border-bottom p-3" id="destacado" style="color:#fff;"> DESTACADOS </p>
             </div>
             <div class="row justify-content-center">
                 <div class="card col-3 bg-info border-light mx-2 p-0 mb-3" style="width: 15rem;">
@@ -121,9 +121,9 @@
             </div>
 
         </section>  
-        <section class="container ">
+        <section class="container " id="bloque3">
             <div class="row">
-                <p class="text-center my-5 border-bottom p-3" style="color:#fff"> CONTACTO </p>
+                <p id="contacto" class="text-center my-5 border-bottom p-3" style="color:#fff"> CONTACTO </p>
             </div>
             <div class="row justify-content-center">
                 <div class="mb-3 col-11">
@@ -137,7 +137,7 @@
                 <div class="mb-3 col-11" >
                     <label for="exampleFormControlTextarea1" class="form-label" style="color:#fff">Mensaje</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
-                    <button type="button" class="btn btn-info text-light my-3  ">Enviar</button>
+                    <button type="button" class="btn btn-info text-light my-3  " id=enviarMensaje >Enviar</button>
                 </div>
                 
             </div>            
