@@ -15,3 +15,7 @@ footer{
     min-height: 60px;
 }
 
+a:hover {
+    color: black!important; 
+    text-decoration:overline; 
+}
